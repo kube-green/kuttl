@@ -1,12 +1,12 @@
 SHELL=/bin/bash -o pipefail
 
 CLI := kubectl-kuttl
-GIT_VERSION_PATH := github.com/kudobuilder/kuttl/pkg/version.gitVersion
+GIT_VERSION_PATH := github.com/kube-green/kuttl/pkg/version.gitVersion
 GIT_VERSION := $(shell git describe --abbrev=0 --tags | cut -b 2-)
-GIT_COMMIT_PATH := github.com/kudobuilder/kuttl/pkg/version.gitCommit
+GIT_COMMIT_PATH := github.com/kube-green/kuttl/pkg/version.gitCommit
 GIT_COMMIT := $(shell git rev-parse HEAD | cut -b -8)
 SOURCE_DATE_EPOCH := $(shell git show -s --format=format:%ct HEAD)
-BUILD_DATE_PATH := github.com/kudobuilder/kuttl/pkg/version.buildDate
+BUILD_DATE_PATH := github.com/kube-green/kuttl/pkg/version.buildDate
 DATE_FMT := "%Y-%m-%dT%H:%M:%SZ"
 BUILD_DATE := $(shell date -u -d "@$SOURCE_DATE_EPOCH" "+${DATE_FMT}" 2>/dev/null || date -u -r "${SOURCE_DATE_EPOCH}" "+${DATE_FMT}" 2>/dev/null || date -u "+${DATE_FMT}")
 LDFLAGS := -X ${GIT_VERSION_PATH}=${GIT_VERSION} -X ${GIT_COMMIT_PATH}=${GIT_COMMIT} -X ${BUILD_DATE_PATH}=${BUILD_DATE}
@@ -38,7 +38,7 @@ ifneq (${GOLANGCI_LINT_VER}, "$(shell ./bin/golangci-lint version --format short
 	curl -sSfL "https://raw.githubusercontent.com/golangci/golangci-lint/v${GOLANGCI_LINT_VER}/install.sh" | sh -s -- -b ./bin "v${GOLANGCI_LINT_VER}"
 endif
 	./bin/golangci-lint --timeout 5m run --build-tags integration
-	
+
 .PHONY: download
 download:  ## Downloads go dependencies
 	go mod download
@@ -84,7 +84,7 @@ cli-install:  ## Installs kubectl-kuttl to GOBIN
 
 .PHONY: generate
 # Generate code
-generate: ## Generates code 
+generate: ## Generates code
 ifneq ($(shell go list -f '{{.Version}}' -m sigs.k8s.io/controller-tools), $(shell controller-gen --version 2>/dev/null | cut -b 10-))
 	@echo "(Re-)installing controller-gen. Current version:  $(controller-gen --version 2>/dev/null | cut -b 10-). Need $(go list -f '{{.Version}}' -m sigs.k8s.io/controller-tools)"
 	go get sigs.k8s.io/controller-tools/cmd/controller-gen@$$(go list -f '{{.Version}}' -m sigs.k8s.io/controller-tools)

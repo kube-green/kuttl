@@ -54,9 +54,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 
-	"github.com/kudobuilder/kuttl/pkg/apis"
-	harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
-	"github.com/kudobuilder/kuttl/pkg/env"
+	"github.com/kube-green/kuttl/pkg/apis"
+	harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
+	"github.com/kube-green/kuttl/pkg/env"
 )
 
 // ensure that we only add to the scheme once.

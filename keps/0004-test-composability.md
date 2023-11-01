@@ -104,6 +104,6 @@ This file can be specified in place of the old test case directory format as a s
 ## KEP History
 
 - 2020-02-12 - Initial draft. (@jbarrick-mesosphere)
-- 2020-05-19 - Implemented Apply in [#102](https://github.com/kudobuilder/kuttl/pull/102) (@kensipe)
-- 2020-05-20 - Implemented Assert [#107](https://github.com/kudobuilder/kuttl/pull/107) and Errors [#108](https://github.com/kudobuilder/kuttl/pull/108) (@kensipe)
+- 2020-05-19 - Implemented Apply in [#102](https://github.com/kube-green/kuttl/pull/102) (@kensipe)
+- 2020-05-20 - Implemented Assert [#107](https://github.com/kube-green/kuttl/pull/107) and Errors [#108](https://github.com/kube-green/kuttl/pull/108) (@kensipe)
 - 2020-05-21 - KEP cleanup and changed to implemented. (@kensipe)

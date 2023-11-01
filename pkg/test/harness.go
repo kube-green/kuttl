@@ -28,11 +28,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 	kindConfig "sigs.k8s.io/kind/pkg/apis/config/v1alpha4"
 
-	harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
-	"github.com/kudobuilder/kuttl/pkg/file"
-	"github.com/kudobuilder/kuttl/pkg/http"
-	"github.com/kudobuilder/kuttl/pkg/report"
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
+	"github.com/kube-green/kuttl/pkg/file"
+	"github.com/kube-green/kuttl/pkg/http"
+	"github.com/kube-green/kuttl/pkg/report"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 // Harness loads and runs tests based on the configuration provided.
