@@ -19,7 +19,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/yaml"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
+	"github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
 )
 
 func pruneLargeAdditions(expected *unstructured.Unstructured, actual *unstructured.Unstructured) runtime.Object {

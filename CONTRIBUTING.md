@@ -24,7 +24,7 @@ You can find the full text of the DCO here: https://developercertificate.org/
 ## Contributing Steps
 
 1. Submit an issue describing your proposed change to the repo in question.
-2. The [repo owners](https://github.com/kudobuilder/kuttl/blob/main/.github/CODEOWNERS) will respond to your issue promptly.
+2. The [repo owners](https://github.com/kube-green/kuttl/blob/main/.github/CODEOWNERS) will respond to your issue promptly.
 3. If your proposed change is accepted, and you haven't already done so, sign a Contributor License Agreement (see details above).
 4. Fork the desired repo, develop and test your code changes.
 5. Submit a pull request.
@@ -68,7 +68,7 @@ After the correct controller-gen version is installed.  All future builds will w
 
 ### Build Instructions
 
-- Get the KUTTL repo: `git clone https://github.com/kudobuilder/kuttl.git`
+- Get the KUTTL repo: `git clone https://github.com/kube-green/kuttl.git`
 - `cd kuttl`
 - `make cli` to build the CLI
 
@@ -173,7 +173,7 @@ If you are not sure, ask someone in the [#kudo](https://kubernetes.slack.com/mes
 Create an issue in this repo once you:
 
 - have circulated your idea to see if there is interest
-   - through Community Meetings, KUTTL/KUDO meetings, KUDO mailing lists, or an issue in github.com/kudobuilder/kuttl
+   - through Community Meetings, KUTTL/KUDO meetings, KUDO mailing lists, or an issue in github.com/kube-green/kuttl
 - (optionally) have done a prototype in your own fork
 - have identified people who agree to work on the enhancement
   - many enhancements will take several releases to progress through Alpha, Beta, and Stable stages

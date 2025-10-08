@@ -2,10 +2,10 @@
 
 <img src="https://kuttl.dev/images/kuttl-horizontal-logo.png" width="256">
 
-[![lint](https://github.com/kudobuilder/kuttl/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/kudobuilder/kuttl/actions)
-[![unit test](https://github.com/kudobuilder/kuttl/actions/workflows/unittest.yml/badge.svg?branch=main)](https://github.com/kudobuilder/kuttl/actions)
-[![integration-test](https://github.com/kudobuilder/kuttl/actions/workflows/integration-test.yml/badge.svg?branch=main)](https://github.com/kudobuilder/kuttl/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kudobuilder/kuttl)](https://goreportcard.com/report/github.com/kudobuilder/kuttl)  
+[![lint](https://github.com/kube-green/kuttl/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/kube-green/kuttl/actions)
+[![unit test](https://github.com/kube-green/kuttl/actions/workflows/unittest.yml/badge.svg?branch=main)](https://github.com/kube-green/kuttl/actions)
+[![integration-test](https://github.com/kube-green/kuttl/actions/workflows/integration-test.yml/badge.svg?branch=main)](https://github.com/kube-green/kuttl/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kube-green/kuttl)](https://goreportcard.com/report/github.com/kube-green/kuttl)  
 
 KUbernetes Test TooL (KUTTL) provides a declarative approach to test Kubernetes Operators.
 

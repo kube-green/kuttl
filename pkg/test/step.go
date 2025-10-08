@@ -22,13 +22,13 @@ import (
 	"k8s.io/client-go/discovery"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
-	"github.com/kudobuilder/kuttl/pkg/env"
-	"github.com/kudobuilder/kuttl/pkg/expressions"
-	kfile "github.com/kudobuilder/kuttl/pkg/file"
-	"github.com/kudobuilder/kuttl/pkg/http"
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
+	"github.com/kube-green/kuttl/pkg/env"
+	"github.com/kube-green/kuttl/pkg/expressions"
+	kfile "github.com/kube-green/kuttl/pkg/file"
+	"github.com/kube-green/kuttl/pkg/http"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 // fileNameRegex contains two capturing groups to determine whether a file has special

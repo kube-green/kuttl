@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strconv"
 
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 // testStepRegex contains one capturing group to determine the index of a step file.

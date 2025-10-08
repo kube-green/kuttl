@@ -10,7 +10,7 @@ import (
 	eventsbeta1 "k8s.io/api/events/v1beta1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 // byFirstTimestamp sorts a slice of events by first timestamp, using their involvedObject's name as a tie breaker.

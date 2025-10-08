@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
+	harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
 )
 
 func TestKubeconfigPath(t *testing.T) {

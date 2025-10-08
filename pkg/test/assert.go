@@ -8,7 +8,7 @@ import (
 	"k8s.io/client-go/discovery"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
 )
 
 // Assert checks all provided assert files against a namespace.  Upon assert failure, it prints the failures and returns an error

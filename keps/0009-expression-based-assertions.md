@@ -28,8 +28,8 @@ Here are a few examples where this limitation is apparent:
 -   Slice assertion.
     -   Kuttl's current method for handling slice comparisons is somewhat unclear. This is especially important when
         the order of elements in the slice is not fixed, which is common in Kubernetes (see
-        https://github.com/kudobuilder/kuttl/issues/76#issuecomment-660944596).
-    -   Additionally, partial assertions on slices are not possible (see https://github.com/kudobuilder/kuttl/issues/76).
+        https://github.com/kube-green/kuttl/issues/76#issuecomment-660944596).
+    -   Additionally, partial assertions on slices are not possible (see https://github.com/kube-green/kuttl/issues/76).
 
 These issues could be resolved by incorporating a CEL engine into Kuttl, allowing for expression
 evaluation and more flexible assertions.

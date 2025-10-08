@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 func TestCollectTestStepFiles(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
 )
 
 // from a list of paths, returns an array of runtime objects

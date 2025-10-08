@@ -9,7 +9,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/kudobuilder/kuttl/pkg/kubernetes/fake"
+	"github.com/kube-green/kuttl/pkg/kubernetes/fake"
 )
 
 func TestGETAPIResource(t *testing.T) {

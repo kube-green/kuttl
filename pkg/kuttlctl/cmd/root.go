@@ -3,8 +3,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
-	"github.com/kudobuilder/kuttl/pkg/version"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
+	"github.com/kube-green/kuttl/pkg/version"
 )
 
 // NewKuttlCmd creates a new root command for kuttlctl

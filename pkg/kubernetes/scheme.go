@@ -10,7 +10,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes/scheme"
 
-	"github.com/kudobuilder/kuttl/pkg/apis"
+	"github.com/kube-green/kuttl/pkg/apis"
 )
 
 // ensure that we only add to the scheme once.

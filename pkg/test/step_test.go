@@ -16,10 +16,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 
-	harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
-	k8sfake "github.com/kudobuilder/kuttl/pkg/kubernetes/fake"
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
+	k8sfake "github.com/kube-green/kuttl/pkg/kubernetes/fake"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 const (

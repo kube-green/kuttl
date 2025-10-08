@@ -7,7 +7,7 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
 )
 
 // IsURL returns true if string is an URL

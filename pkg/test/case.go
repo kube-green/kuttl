@@ -17,12 +17,12 @@ import (
 	"k8s.io/client-go/discovery"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
-	"github.com/kudobuilder/kuttl/pkg/report"
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
-	eventutils "github.com/kudobuilder/kuttl/pkg/test/utils/events"
-	"github.com/kudobuilder/kuttl/pkg/test/utils/files"
+	"github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
+	"github.com/kube-green/kuttl/pkg/report"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
+	eventutils "github.com/kube-green/kuttl/pkg/test/utils/events"
+	"github.com/kube-green/kuttl/pkg/test/utils/files"
 )
 
 // Case contains all the test steps and the Kubernetes client and other global configuration

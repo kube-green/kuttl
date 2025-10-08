@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/cel-go/cel"
 
-	harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
+	harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
 )
 
 func buildProgram(expr string, env *cel.Env) (cel.Program, error) {

@@ -10,14 +10,14 @@ This document demonstrates how to use the KUTTL CLI
 
 ### Installation
 
-You can either download CLI binaries for linux or MacOS from our [release page](https://github.com/kudobuilder/kuttl/releases), or install the CLI plugin using `brew`:
+You can either download CLI binaries for linux or MacOS from our [release page](https://github.com/kube-green/kuttl/releases), or install the CLI plugin using `brew`:
 
 ```bash
 brew tap kudobuilder/tap
 brew install kuttl-cli
 ```
 
-or you can compile and install the plugin from your `$GOPATH/src/github.com/kudobuilder/kuttl` root folder via:
+or you can compile and install the plugin from your `$GOPATH/src/github.com/kube-green/kuttl` root folder via:
 
 ```bash
 make cli-install

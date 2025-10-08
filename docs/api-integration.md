@@ -4,11 +4,11 @@ It is possible to integrate KUTTL into your own Go test infrastructure.  KUDO pr
 
 ## Add KUTTL to Go.mod
 
-`go get github.com/kudobuilder/kuttl`
+`go get github.com/kube-green/kuttl`
 
 or get a specific version
 
-`go get github.com/kudobuilder/kuttl@v0.1.0`
+`go get github.com/kube-green/kuttl@v0.1.0`
 
 ## Common Imports to Use
 
@@ -20,9 +20,9 @@ The `testutils` package contains utilities for docker, kubernetes, loggers and t
 
 ```go
 import (
-  harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
-  "github.com/kudobuilder/kuttl/pkg/test"
-  testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+  harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
+  "github.com/kube-green/kuttl/pkg/test"
+  testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 ```
 

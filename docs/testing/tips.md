@@ -132,7 +132,7 @@ The first time you run the tests, the nodes will download the images, but subseq
 ## IDE completion for kuttl configuration files
 
 While there is no currently available K8S controller to handle the kuttl configuration files,
-the [kuttl CRD definitions](https://github.com/kudobuilder/kuttl/blob/main/crds/) may be handy for kuttl users to leverage coding assistance for kuttl configuration files in
+the [kuttl CRD definitions](https://github.com/kube-green/kuttl/blob/main/crds/) may be handy for kuttl users to leverage coding assistance for kuttl configuration files in
 their favorite IDE.
 
 For intellij IDEA, see [instructions](https://www.jetbrains.com/help/idea/kubernetes.html#crd) for on how to load the CRD files either from:
@@ -140,4 +140,4 @@ For intellij IDEA, see [instructions](https://www.jetbrains.com/help/idea/kubern
 - remote github raw url pointing to the kuttl repository
 - from a K8S cluster where you'd register the CRDs (by running `kubectl apply -f <crd_file.yaml>`)
 
-Screenshots in [PR #376](https://github.com/kudobuilder/kuttl/pull/376)
+Screenshots in [PR #376](https://github.com/kube-green/kuttl/pull/376)

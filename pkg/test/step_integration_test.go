@@ -18,9 +18,9 @@ import (
 	"k8s.io/client-go/discovery"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	harness "github.com/kudobuilder/kuttl/pkg/apis/testharness/v1beta1"
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	harness "github.com/kube-green/kuttl/pkg/apis/testharness/v1beta1"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 var testenv kubernetes.TestEnvironment
@@ -399,7 +399,7 @@ func TestTwoTestStepping(t *testing.T) {
 }
 
 // intentional testing that a test failure captures the test errors and does not have a segfault
-// driving by issue: https://github.com/kudobuilder/kuttl/issues/154
+// driving by issue: https://github.com/kube-green/kuttl/issues/154
 func TestStepFailure(t *testing.T) {
 	// an assert without setup
 	var expected client.Object = &unstructured.Unstructured{

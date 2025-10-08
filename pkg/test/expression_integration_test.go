@@ -18,8 +18,8 @@ import (
 	"k8s.io/client-go/discovery"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/kudobuilder/kuttl/pkg/kubernetes"
-	testutils "github.com/kudobuilder/kuttl/pkg/test/utils"
+	"github.com/kube-green/kuttl/pkg/kubernetes"
+	testutils "github.com/kube-green/kuttl/pkg/test/utils"
 )
 
 func buildTestStep(t *testing.T, testenv kubernetes.TestEnvironment) *Step {

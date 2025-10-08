@@ -122,7 +122,7 @@ linters-settings:
   dupl:
     threshold: 400
   goimports:
-    # Don't use 'github.com/kudobuilder/kuttl', it'll result in unreliable output!
+    # Don't use 'github.com/kube-green/kuttl', it'll result in unreliable output!
     local-prefixes: github.com/kudobuilder
 issues:
   exclude-dirs:
